@@ -1,0 +1,177 @@
+@media (max-width: 1200px) {
+    .main__films-items {
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .main__collections-items {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 996px) {
+
+    .main__bw-bg {
+        width: 100%;
+    }
+
+
+    .main__series-info {
+        row-gap: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main__series-item:nth-of-type(1) .main__series-title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .main__series-description {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .main__series-title {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .main__series-info {
+        row-gap: 5px;
+    }
+
+    .header {
+        position: static;
+    }
+
+    .play-icon {
+        font-size: 25px;
+
+    }
+
+    .footer__content {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .main__title {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .intro__content-title {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .button {
+        font-size: 10px;
+        line-height: 18px;
+        padding: 10px 38px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header__nav-content {
+        column-gap: 30px;
+        row-gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 15px;
+
+    }
+
+    .header__nav-link span {
+        padding: 25px 0;
+    }
+
+    .main__series-title {
+        font-size: 13px;
+        line-height: 15px;
+
+    }
+
+    .footer__right-text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+
+    .main__series-item:nth-of-type(1) .main__series-info .main__series-title {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    .main__bw-image {
+        width: 100%;
+    }
+
+    .main__series-title {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .main__series-item:nth-of-type(1) .main__series-title {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .main__series-description {
+        font-size: 8px;
+        line-height: 11px;
+    }
+
+    .button {
+        font-size: 8px;
+        line-height: 16px;
+        padding: 8px 30px;
+    }
+
+    .play-icon {
+        font-size: 18px;
+    }
+
+    .main__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .main__collections-title {
+
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .intro__content-title {
+        font-size: 35px;
+        line-height: 40px;
+
+    }
+
+    .header__top-text {
+        font-size: 12px;
+        line-height: 15px;
+        max-width: 130px;
+    }
+
+    .films-logo {
+        font-size: 35px;
+    }
+
+    .header__nav-logo img {
+        max-width: 80px;
+        max-height: 25px;
+    }
+    .header__nav-logo {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
